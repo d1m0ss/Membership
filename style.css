@@ -87,6 +87,28 @@ header .btn a{
 	border-radius: 30px;
 }
 
+header .btn a::after{
+	content: '';
+	transition: 0.1s;
+	position: absolute;
+	bottom: 10px;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	padding: 25px 50px;
+	border-radius: 30px;
+	border-top: gray solid 3px;
+	border-bottom: gray solid 3px;
+	box-shadow: 0px 0px 25px gray;
+	text-shadow: 0px 0px 10px gray;
+	opacity: 0;
+}
+
+header .btn a:hover::after{
+	opacity: 1;
+}
+
 header .btn, header .logo, header .menu{
 	display: inline-block;
 }
@@ -106,6 +128,7 @@ header .btn{
 	margin-left: 2%;
 	position: relative;
 	top: -20px;
+	padding: 26px	1px;
 }
 
 /* ---------------------2_BOX--------------------- */
@@ -142,6 +165,7 @@ header .btn{
 
 .container2 .btn2 a{
 	text-decoration: none;
+	position: relative;
 	color: #333333;
 	font-size: 14px;
 	font-family: 'Ubuntu', sans-serif;
@@ -150,6 +174,28 @@ header .btn{
 	/* margin-	left: 27%; */
 	background-color: #ffffff;
 	border-radius: 30px;
+}	
+
+.container2 .btn2 a::after{
+	content: '';
+	transition: 0.1s;
+	position: absolute;
+	bottom: 10px;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	padding: 25px 50px;
+	border-radius: 30px;
+	border-top: gray solid 3px;
+	border-bottom: gray solid 3px;
+	box-shadow: 0px 0px 25px gray;
+	text-shadow: 0px 0px 10px gray;
+	opacity: 0;
+}
+
+.container2 .btn2 a:hover::after{
+	opacity: 1;
 }
 
 /* ---------------------3_BOX--------------------- */
@@ -273,6 +319,8 @@ header .btn{
 .container6 .prices .price{
 	font-size: 80px;
 	color: #c89d28;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
 .container6 .prices h2{
@@ -280,6 +328,12 @@ header .btn{
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	padding-top: 35px;
+}
+
+.container6 span{
+	font-size: 30px;
+	position: relative;
+	bottom: 40px;
 }
 
 .container6 .prices div{
@@ -298,10 +352,13 @@ header .btn{
 	font-size: 14px;
 	line-height: 2;
 	text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 }
 
 .container6 .aprices a{
 	text-decoration: none;
+	position: relative;
 	color: #333333;
 	font-size: 14px;
 	font-family: 'Ubuntu', sans-serif;
@@ -309,6 +366,28 @@ header .btn{
 	padding: 26px 50px;
 	background-color: #ffffff;
 	border-radius: 30px;
+}
+
+.container6 .aprices a::after{
+	content: '';
+	transition: 0.1s;
+	position: absolute;
+	bottom: 10px;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	padding: 25px 50px;
+	border-radius: 30px;
+	border-top: gray solid 3px;
+	border-bottom: gray solid 3px;
+	box-shadow: 0px 0px 25px white;
+	text-shadow: 0px 0px 10px white;
+	opacity: 0;
+}
+
+.container6 .aprices a:hover::after{
+	opacity: 1;
 }
 
 .container6 .aprices .vabtn{
