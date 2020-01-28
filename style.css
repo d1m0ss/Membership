@@ -234,27 +234,60 @@ header .btn{
 	justify-content: space-between;
 }
 
-.container3 .hover{
+.container3 .pictures{
 	display: flex;
 	justify-content: space-between;
-	height: 0px;
-	position: relative;
-	bottom: 262px;
-}
-.container3 .hover a{
-	background-repeat: no-repeat;
-	width: 376px;
-	height: 258px;
-	background-position-x: center;
-	background-position-y: center;
 }
 
-.container3 .hover a:hover{
+.container3 .pictures .i1{
+	position: relative;
+	background-image: url('./img/img1.png');
+	background-repeat: no-repeat;
+	width: 360px;
+	height: 260px;
+}
+
+.container3 .pictures .i2{
+	position: relative;
+	background-image: url('./img/img2.png');
+	background-repeat: no-repeat;
+	width: 360px;
+	height: 260px;
+}
+
+.container3 .pictures .i3{
+	position: relative;
+	background-image: url('./img/img3.png');
+	background-repeat: no-repeat;
+	width: 360px;
+	height: 260px;
+}
+
+.container3 .pictures .i1::after,
+.container3 .pictures .i2::after,
+.container3 .pictures .i3::after{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
 	background-image: url('./img/himg2.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container3 .pictures .i1:hover::after,
+.container3 .pictures .i2:hover::after,
+.container3 .pictures .i3:hover::after{
+	opacity: 1;
 }
 
 .container3 .descr{
 	position: relative;
+	left: 3%;
 	top: 32px;
 	display: flex;
 	justify-content: space-between;
@@ -262,7 +295,6 @@ header .btn{
 
 .container3 .descr div{
 	width: 30%;
-	margin: 0 34px;
 }
 
 .container3 .descr h2{
