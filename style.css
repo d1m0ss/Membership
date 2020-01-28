@@ -377,12 +377,13 @@ header .btn{
 	bottom: 0%;
 	left: 0%;
 	right: 0%;
-	padding: 25px 50px;
+	padding: 26px 52px;
 	border-radius: 30px;
-	border-top: gray solid 3px;
-	border-bottom: gray solid 3px;
-	box-shadow: 0px 0px 25px white;
-	text-shadow: 0px 0px 10px white;
+	border-top: #c89d28 solid 4px;
+	border-bottom: #c89d28 solid 3px;
+	box-shadow: 0px 0px 25px #c89d28;
+	text-shadow: 0px 0px 10px #c89d28;
+	background-color: #c89d2820;
 	opacity: 0;
 }
 
