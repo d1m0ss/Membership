@@ -805,6 +805,100 @@ header .btn{
 
 /* ---------------------5_BOX--------------------- */
 
+
+.container5{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #000000;
+}
+
+.container5 img{
+	max-width: 100%;
+}
+
+.container5 .ldesc{
+	margin-top: 220px;
+}
+
+.container5 .rdesc{
+	margin-top: 185px;
+	margin-left: 50px;
+}
+
+.container5 h2{
+	font-size: 48px;
+}
+
+.container5 p{
+	font-size: 24px;
+	color: #333333;
+	margin-top: 55px;
+}
+
+.container5 .desc p{
+	font-size: 22px;
+	margin-top: 30px;	
+}
+
+.container5 svg{
+	font-size: 60px;
+	color: #c99f2d;
+}
+
+.container5 .ddesc h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+
+.container5 .ddesc p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #333333;
+}
+
+.container5 .ddesc{
+	max-width: 55%;
+	margin-left: 95px;
+	position: relative;
+	bottom: 55px;
+}
+
+.container5 .desc{
+	margin-top: 60px;
+}
+
+.container5 .dedesc{
+	margin-bottom: -10px;
+}
+
+.container5 .row{
+	margin-left: -30px;
+}
+
+.container5 a{
+	text-transform: uppercase;
+	padding: 25px 95px;
+	background-color: #e5e1e1;
+	border-radius: 30px;
+	border: 1px solid #e5e1e1;
+	color: #333333;
+	font-weight: 700;
+	margin-top: 95px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.container5 a:hover{
+	border: 1px solid #e5e1e1;
+	background-color: #333333;
+	color: #e5e1e1;
+	box-shadow: 0px 0px 100px #e5e1e1;
+}
+
+
+
 /* ---------------------6_BOX--------------------- */
 
 .container6{
@@ -1206,7 +1300,7 @@ header .btn{
 
 
 
-/* ---------------------8_BOX--------------------- */
+/* ---------------------9_BOX--------------------- */
 
 
 .container9{
@@ -1255,3 +1349,177 @@ header .btn{
 	text-align: center;
 	padding-top: 150px;
 }
+
+
+/* ---------------------9_BOX--------------------- */
+
+
+/* ---------------------10_BOX--------------------- */
+
+
+.container10{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
+.container10 .row{
+	justify-content: space-around;
+}
+
+.container10 h2{
+	text-align: center;
+	font-size: 30px;
+	color: #333333;
+	margin: 150px auto 110px;
+}
+
+.container10 .foot h2{
+	font-size: 22px;
+	margin: 150px 20% 55px;
+}
+
+.container10 .foot .afoot h2{
+	font-weight: 500;
+	color: #333333;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: start;
+	margin: 0 auto;
+}
+
+.container10 .foot .afoot p{
+	color: #999999;
+	font-size: 16px;
+}
+
+.container10 .foot .afoot{
+	margin-left: 24%;
+	margin-bottom: 235px;
+	margin-top: 55px	;
+}
+
+
+/* ---------------------10_BOX--------------------- */
+
+
+/* ---------------------11_BOX--------------------- */
+
+
+.container11{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	text-align: center;
+	background-image: url('./img/gyse.png');
+	padding-top: 120px;
+	padding-bottom: 180px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container11 h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.container11 p{
+	font-size: 22px;
+	color: #cccccc;
+	margin-bottom: 55px;
+}
+
+.container11 a{
+	font-weight: 700;
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 25px 85px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	transition: 0.2s;
+}
+
+.container11 a:hover{
+	box-shadow: 0px 0px 10px #fff;
+	border: 2px solid #333333;
+}
+
+
+/* ---------------------11_BOX--------------------- */
+
+
+/* ---------------------12_BOX--------------------- */
+
+
+.container12{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #999999;
+	background-color: #0d0d0d;
+}
+
+.container12 h2{
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 175px 0 40px;
+}
+
+.container12 .desc1 p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 28px;
+	max-width: 80%;	
+}
+
+.container12 svg{
+	color: #666666;
+	margin-top: 40px;
+	font-size: 14px;
+	margin-right: 60px;
+}
+
+.container12 a{
+	text-decoration: none;
+	color: #999999;
+}
+
+.container12 li{
+	padding-bottom: 22px;
+}
+
+.container12 .hr{
+	height: 1px;
+	background-color: #1d1d1d;
+	margin-top: 56px;
+	margin-bottom: 60px;
+	width: 110%;
+	position: relative;
+	right: 30px;
+}
+
+.container12 .mwl{
+	text-transform: uppercase;
+	color: #999999;
+	word-spacing: 5px;
+	font-size: 11px;
+	padding-bottom: 135px;
+}
+
+.container12 .mwl span{
+	color: #8d7431;
+}
+
+.container12 a:hover{
+	color: #fff;
+}
+
+.container12 .mwl span:hover{
+	color: #d1a11c;
+}
+
+
+
+/* ---------------------12_BOX--------------------- */
